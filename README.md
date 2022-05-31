@@ -1,16 +1,19 @@
 # GFlowNets-DNA-Motif
 DNA Motif Mining Using GFlowNets
 
-## Code Organization
+## Usage
+Please refer to each sub-directory for READMEs on how to install, setup and run.
+
+## Code Structure
 - notebooks/  
-  - exploratory notebooks for replicating TF-Modisco [1]
-  - Gibbs sampling vs GFlowNets comparison [2]
+  - Exploratory notebooks for replicating TF-Modisco [1].
+  - Gibbs sampling vs GFlowNets comparison [2].
 - bioseq/
-  - Replicate TF Bind 8 experiment [3]
+  - Replicate TF Bind 8 experiment [3].
 - gflownets/
-  - Replicate original GFlowNets paper [4]
+  - Replicate original GFlowNets paper [4].
 - benchmarking/
-  - Compare GFlowNets, Gibbs sampling models against other TF binding models (pwm_HOCOMOCO, DeepBind, lsgkm-SVM, DeepSEA, BPNet) from the Kipoi model zoo [5]
+  - Compare GFlowNets, Gibbs sampling models against other TF binding models (pwm_HOCOMOCO, DeepBind, lsgkm-SVM, DeepSEA, BPNet) from the Kipoi model zoo [5].
 
 ## References
 [1] Avsec, Žiga, Melanie Weilert, Avanti Shrikumar, Sabrina Krueger, Amr Alexandari, Khyati Dalal, Robin Fropf, et al. “Base-Resolution Models of Transcription-Factor Binding Reveal Soft Motif Syntax.” Nature Genetics 53, no. 3 (March 2021): 354–66. https://doi.org/10.1038/s41588-021-00782-6.
